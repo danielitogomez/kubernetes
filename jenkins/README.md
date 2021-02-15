@@ -2,7 +2,7 @@
 This project is the POC for minimum setup of Jenkins on Kubernetes Cluster
 
 ## Installation
-You can use GKE or another Cloud with Kubernetes Engine and use on premise kubernetes cluster.
+You can use GKE or another Cloud with Kubernetes Engine or use on premise kubernetes cluster.
 
 * Run over VMs
 Use this scripts for install and config the master node and workers nodes https://github.com/danielitogomez/bash/tree/master/kubernetes
