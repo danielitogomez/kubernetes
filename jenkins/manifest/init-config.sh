@@ -1,7 +1,9 @@
 #!/bin/bash
 
+#Variables
 NAMESPACE="jenkins"
 
+#Creating namespace
 kubectl create namespace $NAMESPACE
 
 if [ $? -eq 0 ]; then
