@@ -1,7 +1,9 @@
 #!/bin/bash
 
+#Variables
 NAMESPACE="jenkins"
 
+#Creating namespace
 kubectl create namespace $NAMESPACE
 
 if [ $? -eq 0 ]; then
@@ -11,6 +13,6 @@ if [ $? -eq 0 ]; then
     done
 
 else
-    echo "Already exit namespace $NAMESPACE"
+    echo "Already exist namespace $NAMESPACE"
     exit 1
 fi
