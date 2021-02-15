@@ -13,6 +13,6 @@ if [ $? -eq 0 ]; then
     done
 
 else
-    echo "Already exit namespace $NAMESPACE"
+    echo "Already exist namespace $NAMESPACE"
     exit 1
 fi
