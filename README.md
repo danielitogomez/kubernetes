@@ -1,1 +1,1 @@
-# POC of Kubernetes on setup and configure tools, apps, and services into Kubernetes Cluster.
+# POC for setup and configure tools, apps, and services into Kubernetes Cluster.
