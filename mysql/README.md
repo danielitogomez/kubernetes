@@ -11,6 +11,7 @@ Here, there is an example of a Kubernetes local cluster using kind, deployment, 
 ```sh
 git clone https://github.com/danielitogomez/kubernetes.git
 cd $PWD/kubernetes/mysql
+kind create cluster
 kubectl apply -f .
 ./db-dev-ops.sh
 ```
